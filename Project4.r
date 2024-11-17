@@ -79,7 +79,7 @@ ggplot(crimes_by_month, aes(x = Month, y = Crimes)) +
 # Plot: Number of Crimes by Day
 ggplot(crimes_by_day, aes(x = Day, y = Crimes)) +
   geom_bar(stat = "identity", fill = "green") +
-  labs(title = "Number of Crimes by Day of the Week", x = "Day of the Week", y = "Number of Crimes") +
+  labs(title = "Number of Crimes by Day", x = "Day", y = "Number of Crimes") +
   theme_minimal()
 ###############################################################################
 #how it changes the total number of crimes per year in each of the Police_Districts
